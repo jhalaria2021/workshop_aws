@@ -7,4 +7,4 @@
      aws_s3:
        bucket: Jhohan-9728463
        mode: create
-       region: us-east-2
+       region: us-east-1
