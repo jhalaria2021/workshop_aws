@@ -3,8 +3,8 @@
   connection: local
   
   tasks:
-   - name: Create new bucket
-     aws_s3:
-       bucket: Jhohan-9728463
-       mode: create
-       region: us-east-1
+    - name: Create new bucket
+      aws_s3:
+        bucket: Jhohan-9728463
+        mode: create
+        region: us-east-1
