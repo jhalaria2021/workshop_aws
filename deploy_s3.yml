@@ -1,0 +1,10 @@
+- name: Test s3
+  hosts: localhost
+  connection: local
+  
+  tasks:
+   - name: Create new bucket
+     aws_s3:
+       bucket: “ingrese nombre-id”
+       mode: create
+       region: us-east-2
