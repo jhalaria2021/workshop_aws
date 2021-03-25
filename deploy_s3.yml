@@ -5,6 +5,6 @@
   tasks:
    - name: Create new bucket
      aws_s3:
-       bucket: “ingrese nombre-id”
+       bucket: “Jhohan-9728463”
        mode: create
        region: us-east-2
